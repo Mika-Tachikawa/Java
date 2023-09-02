@@ -1,4 +1,4 @@
-package projava;
+package test55;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
