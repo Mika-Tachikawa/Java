@@ -2,9 +2,9 @@ package projava;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JTexField;
+import javax.swing.JTextField;
 
-public class SampleForm {
+public class Projava {
   
   public static void main(String[] args) {
   
@@ -12,7 +12,7 @@ public class SampleForm {
    frame.setSize(600,400);
    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   
-   var test1 = new JTextField();
+   var text1 = new JTextField();
    frame.add("North",text1);
    
    var text2 = new JTextField();
