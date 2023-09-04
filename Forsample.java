@@ -2,7 +2,7 @@ package test55;
 
 public class Forsample {
   public static void main(String[] args) {
-    for (int = 0; i < 5; I++){
+    for (int i=0; i<5; i++){
       System.out.println(i);
     }  
   }
