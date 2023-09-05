@@ -6,7 +6,7 @@ public class KakezanTable {
       for (int j=1; j<=9; i++){
         System.out.printf("%2d|",i*j);
       }
-    System.out.prinln();
+    System.out.println();
     }
   }
 }
