@@ -1,13 +1,12 @@
-package projava;
+package test55;
 
 import java.util.List;
 
 public class ForEach {
-  
+
   public static void main(String[] args){
-    var strs = List.of("apple","banana","grape");
-    for (int i=0; i<strs.size(); i++){
-      var strs.get(i);
+    List<String> strs = List.of("apple","banana","grape");
+    for (String str : strs) {
       System.out.println(str);
     }
   }
