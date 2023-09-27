@@ -33,6 +33,15 @@ public class Maze {
         break;
       }
       
+      int ch = System.in.read();
+      var next = switch(ch) {
+        case'a' -> new Position(current.x()-1,current.y());
+        case'w' -> new Position(current.x() ,current.y()-1);
+        case's' -> new Position(current.x()+1,current.y());
+        case'z' -> new Position(current.x() ,current.y()+1);
+        default -> current;
+      };
+      
       
       
     }
