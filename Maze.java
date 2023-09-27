@@ -42,7 +42,11 @@ public class Maze {
         default -> current;
       };
       
+      if (map[next.y()][next.x()] == 0) {
+        current = next;
+      }
       
+      System.in.read();
       
     }
   }
