@@ -28,6 +28,12 @@ public class Maze {
         System.out.println();
       }
       
+      if (current.equals(goal)) {
+        System.out.println("GOAL!!!");
+        break;
+      }
+      
+      
       
     }
   }
