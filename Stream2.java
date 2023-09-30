@@ -5,14 +5,14 @@ import java.util.List;
 
 public class StreamSample1 {
   public static void main(String[] args) {
-    var date = List.of("yamamoto","kis","sugiyama");
+    List<String> date = List.of("yamamoto", "kis", "sugiyama");
     
-    var result = new ArrayList<String>();
-    for (var s : date) {
+    List<String> result = new ArrayList<>();
+    for (String s : date) {
       if (s.length() >= 5) {
         result.add(s);
       }
     }
-    System.out println(result);
+    System.out.println(result);
   }
 }
