@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class StreamSample1 {
+public class Stream2 {
   public static void main(String[] args) {
     List<String> date = Arrays.asList("yamamoto", "kis", "sugiyama");
     
