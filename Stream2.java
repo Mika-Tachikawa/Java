@@ -1,11 +1,12 @@
 package test55;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class StreamSample1 {
   public static void main(String[] args) {
-    List<String> date = List.of("yamamoto", "kis", "sugiyama");
+    List<String> date = Arrays.asList("yamamoto", "kis", "sugiyama");
     
     List<String> result = new ArrayList<>();
     for (String s : date) {
