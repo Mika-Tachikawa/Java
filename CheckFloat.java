@@ -7,7 +7,7 @@ public class CheckFloat {
     }
 
     static boolean check(String date) {
-        var state = FloatState.START;
+        FloatState state = FloatState.START; // 変数の型を明示的に指定
         char[] charArray = date.toCharArray();
         for (char ch : charArray) {
             switch (state) {
