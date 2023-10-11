@@ -32,7 +32,7 @@ public class Class {
     System.out.println(s);
   }
 }
-この修正では、通常のクラスStudentを使用し、コンストラクタ、アクセサーメソッド、toStringメソッドを追加して、同様の機能を実現しています。
+
 
 
 
