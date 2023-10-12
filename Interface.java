@@ -39,7 +39,7 @@ class Teacher extends Person {
     }
 }
 
-public class Main {
+public class Interface {
     public static void main(String[] args) {
         List<Person> people = new ArrayList<>();
         people.add(new Student("kis", 80));
