@@ -1,5 +1,6 @@
 package test55;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Inherit {
@@ -38,9 +39,9 @@ public class Inherit {
   }
   
   public static void main(String[] args) {
-    List<User> people = List.of(
-      new Student("kis", 80),
-      new Teacher("hosoya", "Math"));
+    List<User> people = new ArrayList<>();
+    people.add(new Student("kis", 80));
+    people.add(new Teacher("hosoya", "Math"));
     for (User p : people) {
       System.out.println(String.format("こんにちは%sさん", p.getName()));
     }
