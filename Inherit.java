@@ -14,7 +14,7 @@ public class Inherit {
   static class Student extends User {
     int score;
     
-    Student(String name,int score){
+    Student(String name, int score){
       this.name = name;
       this.score = score;
     }
@@ -27,7 +27,7 @@ public class Inherit {
   static class Teacher extends User {
     String subject;
     
-    Teacher(String name,String subject) {
+    Teacher(String name, String subject) {
       this.name = name;
       this.subject = subject;
     }
@@ -39,11 +39,10 @@ public class Inherit {
   
   public static void main(String[] args) {
     List<User> people = List.of(
-      new Student("kis",80),
-      new Teacher("hosoya","Math"));
-      for (var p : people) {
-        System.out.println("こんにちは%sさん".formatted(p.getName()));
-      }
+      new Student("kis", 80),
+      new Teacher("hosoya", "Math"));
+    for (User p : people) {
+      System.out.println(String.format("こんにちは%sさん", p.getName()));
+    }
   }
-  
 }
